@@ -1,0 +1,32 @@
+tailwind
+1] movies la blue clr aane ke liye tailwind pe clrs ke no diye hai [search for=tailwind colors]
+  so here blue ka no 400 hai isliye text-blue-400 aisa likha
+
+
+IMDB clone part-1 code link=> ​https://nados.io/file/imdb-clone-part-1
+
+day-38.46 time
+hw to do loader(progrssive randering)[means take youtube as e.g jb uska network slow hota hai to pehle uske dabbe aate hai fir name aata hai aur fir uska content badal jata hai]
+
+to get trending movies 1st we need to go through search trending on imdb docs=>
+1)search= trending
+        try it out
+        media type=>movie
+        time window=week
+        api key [get through imdb api key]
+        below link copy and then search it
+
+favourite button
+ -margin ke liye[mt-4] aise use karte hai
+ -padhne ke liye parse aur save karne ke liye stringify use karte hai
+
+Fav.js
+line no 11
+
+-paha pe genre ka ek empty arr liya hai
+-fir fav movie pr map mara [favourites.map]
+-jo id's hai wo fav mai localstorage se milti hai
+-har movie k undar genre ki id hogi
+-genreid k undr hum kya check karte hai=movie.genreid[0] (genreid ek arr hai waha pe cheese basically likhi hongi)
+-aur last ko line no:5 ke object mai check kiya konsa no hai jo uss id se match kr rha hai
+-jo no match match kara uske aage ki value put kri [eg. agr 16 aya to animation hoga]        
